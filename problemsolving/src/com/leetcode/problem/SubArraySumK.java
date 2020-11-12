@@ -26,7 +26,7 @@ public static int findMaxLength(int[] nums) {
             int zeroCount = 0;
             int oneCount = 0;
             for (int j=i; j<n; j++) {
-                if (nums[i]==0) {
+                if (nums[j]==0) {
                     zeroCount++;
                 } else {
                     oneCount++;
